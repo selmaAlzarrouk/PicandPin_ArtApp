@@ -42,5 +42,10 @@ export default {
             title:'PostedBy',
             type: 'postedBy', //type postedBy is a refernce to another document - sanity io be smart like that :>
         },
+        {
+            name: 'save',
+            title:'Save',
+            type: 'array',
+        },
     ]
 }
