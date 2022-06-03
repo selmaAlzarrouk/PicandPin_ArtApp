@@ -13,6 +13,10 @@ const login = () => {
         <video
           src={shareVideo}
           type="video/mp4"
+          loop
+          controls={false}   // no controls its just a backround mp4 file playing and looping in the back of sign up page
+          muted // no video sound just mute 
+          autoPlay   //allows v.mp4 to play like a video :> 
           />
         </div>
     </div>
