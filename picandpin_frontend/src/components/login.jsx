@@ -17,7 +17,15 @@ const login = () => {
           controls={false}   // no controls its just a backround mp4 file playing and looping in the back of sign up page
           muted // no video sound just mute 
           autoPlay   //allows v.mp4 to play like a video :> 
+          className="w-full h-full object-cover"
           />
+
+          <div className="absolute flex flex-col justify-center items-center top-0 right-0 left-0 bottom-0  bg-blackOverlay">
+            <div className="p-5">
+              <img src={logo}/>
+
+            </div>
+          </div>
         </div>
     </div>
   )
